@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Engine.qml</file>
+        <file>TellTale.qml</file>
+        <file>ButtonCustome.qml</file>
+        <file>SignalComponent.qml</file>
+        <file>Media.qml</file>
+    </qresource>
+</RCC>
