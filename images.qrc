@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/backlightnotworking.png</file>
+        <file>images/frontlightnotworking.png</file>
+        <file>images/lowoilpressure.png</file>
+        <file>images/batteryOn.png</file>
+        <file>images/batteryWarning.png</file>
+        <file>images/engineCheckRequired.png</file>
+        <file>images/engineTempHighButton.png</file>
+        <file>images/lowFuelWarningLight.png</file>
+        <file>images/absWarning.png</file>
+    </qresource>
+</RCC>

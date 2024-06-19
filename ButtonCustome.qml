@@ -6,6 +6,7 @@ Rectangle {
     property alias text: textId.text
     property string topButtonColor :""
     property string bottomButtonColor: ""
+    property alias textSize: textId.font.pixelSize
     // property alias color: customeButton.color
     signal buttonClicked()
     // anchors.horizontalCenter: parent.horizontalCenter
@@ -13,21 +14,26 @@ Rectangle {
     width: 250
     height: 100
     radius: 10
-    property real originalWidth: width
-    property real originalHeight: height
+
     property bool isSelected: false  // New property to track selection state
 
     gradient: Gradient {
-        GradientStop { position: 0.0; color: isSelected ? "#99f09b" : topButtonColor }//"#c9d7f5"
-        GradientStop { position: 1.0; color: isSelected ? "#07de0a" : bottomButtonColor }//"#87a5e8"
+        GradientStop { position: 0.0; color: isSelected ? "#99f09b" : topButtonColor }
+        GradientStop { position: 1.0; color: isSelected ? "#07de0a" : bottomButtonColor }
     }
 
     Text {
         id: textId
-        anchors.centerIn: parent
+        // anchors.centerIn: parent
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        // width: customeButton.width
         anchors.margins: 5
-        color: "white"
+        color: isSelected ?"black":"white"
         font.family: "Montserrat"
+        Component.onCompleted: {
+            console.log(textId.width)
+        }
     }
 
     MouseArea {
@@ -36,7 +42,7 @@ Rectangle {
             buttonClicked()
         }
         onPressed: {
-            customeButton.scale = 0.95
+            customeButton.scale = 0.96
         }
         onReleased: {
             customeButton.scale = 1

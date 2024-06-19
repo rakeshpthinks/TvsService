@@ -8,5 +8,4 @@ Item {
         color: "#232A35"
         font.family: "Montserrat"
     }
-
 }

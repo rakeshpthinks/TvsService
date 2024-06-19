@@ -6,5 +6,10 @@
         <file>ButtonCustome.qml</file>
         <file>SignalComponent.qml</file>
         <file>Media.qml</file>
+        <file>MyApplication.qml</file>
+        <file>SignalWindow.qml</file>
+        <file>BacklightNotWorking.qml</file>
+        <file>CustomeWarnings.qml</file>
+        <file>CustomDoubleSpinBox.qml</file>
     </qresource>
 </RCC>
