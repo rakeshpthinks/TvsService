@@ -9,5 +9,8 @@
         <file>images/engineTempHighButton.png</file>
         <file>images/lowFuelWarningLight.png</file>
         <file>images/absWarning.png</file>
+        <file>images/BatteryUpper.png</file>
+        <file>images/Battery-Outer.png</file>
+        <file>images/zeon-white-battery.png</file>
     </qresource>
 </RCC>

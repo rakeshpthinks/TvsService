@@ -11,7 +11,7 @@ Rectangle{
 
     width: 200
     height: 200
-    border.color: "black"
+    // border.color: "black"
 
     Image {
         id: _imageID

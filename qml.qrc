@@ -11,5 +11,6 @@
         <file>BacklightNotWorking.qml</file>
         <file>CustomeWarnings.qml</file>
         <file>CustomDoubleSpinBox.qml</file>
+        <file>Battery.qml</file>
     </qresource>
 </RCC>

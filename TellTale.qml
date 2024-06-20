@@ -72,9 +72,13 @@ Item {
         if (aspectRatio > 1.5) {
             _gridLayouts.columns = 3
             _gridLayouts.rows = 4
-        } else if (aspectRatio > 1.3) {
-            _gridLayouts.columns = 3
+        }else if (aspectRatio > 1.4) {
+            _gridLayouts.columns = 4
             _gridLayouts.rows = 4
+        }
+        else if (aspectRatio > 1.1) {
+            _gridLayouts.columns = 3
+            _gridLayouts.rows = 5
         } else {
             _gridLayouts.columns = 2
             _gridLayouts.rows = 4

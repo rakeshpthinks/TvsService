@@ -10,15 +10,15 @@ Window {
     color: "white"
 
 
-    MyApplication{
-        anchors.fill: parent
+    // MyApplication{
+    //     anchors.fill: parent
 
-    }
+    // }
     Component.onCompleted: {
         console.log(Screen.width ,+" "+ Screen.height)
     }
 
-    // SignalWindow{
+    SignalWindow{
 
-    // }
+    }
 }

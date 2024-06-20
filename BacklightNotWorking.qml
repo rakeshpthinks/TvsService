@@ -1,15 +1,15 @@
 import QtQuick 2.14
 
 Rectangle {
-    property bool isBacklightNotWorking: false
-    border.color: "black"
+    property bool isTrue: false
+    // border.color: "black"
     Rectangle{
         id: _light
         width: parent.width * 0.5
         height: parent.height * 0.5
         radius: 50
         anchors.centerIn: parent
-        color: isBacklightNotWorking ? "red" : "grey"
+        color: isTrue ? "red" : "grey"
     }
     Text {
         id: name
